@@ -1,0 +1,96 @@
+body {
+    background-color: #FFF8F3;
+}
+
+.heading {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 4.2rem;
+    color: chocolate;
+    padding-top: 2%;
+}
+
+.main {
+    text-align: center;
+    padding: 2.5% 10%;
+    width: 80%;
+    margin: 3% auto;
+    margin-bottom: 1%;
+}
+
+.name {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2.2rem;
+    color: turquoise;
+}
+
+.block {
+    border-style: groove;
+    border: 0.125rem solid black;
+    border-radius: 2rem;
+    padding-bottom: 8%;
+    padding-top: 2%;
+
+}
+
+.left {
+    border-right: hidden;
+}
+
+.right {
+    border-left: hidden;
+}
+
+.get {
+    margin-top: 10%;
+    padding-bottom: 5%;
+    background-color: snow;
+    opacity: 80%;
+    border: 0.125rem solid red;
+    border-radius: 0.75rem;
+    padding: 0.3125rem;
+    color: darkslategray;
+    font-family: 'Lora', serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+    width: 80%;
+}
+
+.btn {
+    font-weight: 700;
+    border-width: 0.1rem;
+    margin-top: 2%;
+}
+
+.output {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.first-name,
+.second-name,
+.result {
+    font-family: 'Lora', serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: mediumpurple;
+    margin-top: 0;
+}
+
+.animate{
+    transform: scale(1.2);
+}
+.final{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 2.5rem;
+    margin-top: 1%;
+    color: turquoise;
+    transition: transform .5s;
+}
+#dis1,#dis2,#dis3{
+    transition: transform .5s;
+}
